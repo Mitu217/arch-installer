@@ -9,6 +9,10 @@ if [ "${1:-}" = "--verbose" ] || [ "${1:-}" = "-v" ]; then
 	set -x
 fi
 
+# defaults
+NEW_HOSTNAME=${NEW_HOSTNAME:-arch}
+NEW_USERNAME=${NEW_USERNAME:-guest}
+
 #----------------------
 # Setup Mirrors
 #----------------------
