@@ -1,4 +1,4 @@
-# install-arch
+# arch-installer
 installer for arch linux
 
 ```bash
